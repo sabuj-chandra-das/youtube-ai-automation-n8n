@@ -212,7 +212,40 @@ This removes the need to manually download and upload each generated video.
 | **REST APIs** | Connecting external AI services |
 
 ---
+## 🎥 Automation Demo
 
+This project demonstrates an end-to-end automated pipeline for creating and publishing AI-generated YouTube videos.
+
+The automation connects multiple services to handle the complete production process:
+
+**AI Idea → Script → Visuals → Video Clips → Voice-over → Video Processing → YouTube**
+
+### What the automation produces
+
+- AI-generated video concepts
+- Structured video scripts
+- Segmented scenes for short video clips
+- AI-generated visual prompts
+- AI-generated images
+- AI-generated image-to-video clips
+- AI-generated voice-over
+- Automated video and audio merging
+- Final video processing
+- Automated YouTube publishing
+
+### Automation Architecture
+
+The project uses **n8n as the central orchestration layer**, connecting AI models, media-generation APIs, cloud storage, media-processing services, webhooks, and YouTube.
+
+This demonstrates practical implementation of:
+
+- Multi-step AI automation
+- API integrations
+- Webhook-based communication
+- Asynchronous AI processing
+- Media pipeline automation
+- Cloud file handling
+- Automated content publishing
 ## 📸 Workflow Screenshots
 
 ### AI Video Generation Workflow
